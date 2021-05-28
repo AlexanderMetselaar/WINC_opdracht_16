@@ -1,0 +1,96 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2f303a;
+}
+
+.fa {
+  padding: 20px;
+  padding-left: 15px;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  text-align: left;
+  text-decoration: none;
+  white-space: nowrap;
+  position: absolute;
+  right: 0;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  transition-duration: 700ms;
+}
+
+.fa-laptop-code {
+  background-color: #e17b77;
+  top: 340px;
+}
+
+.fa-laptop-code::before {
+  content: "";
+  padding-right: 20px;
+}
+
+.fa-laptop-code:hover {
+  width: 230px;
+}
+
+.fa-twitter {
+  background-color: #00aced;
+  top: 380px;
+}
+
+.fa-twitter::before {
+  content: "";
+  padding-right: 10px;
+}
+
+.fa-twitter:hover {
+  width: 230px;
+}
+
+.fa-linkedin {
+  background-color: #007bb6;
+  top: 420px;
+}
+
+.fa-linkedin::before {
+  content: "";
+  padding-right: 20px;
+}
+
+.fa-linkedin:hover {
+  width: 230px;
+}
+
+.fa-facebook {
+  background-color: #3b5998;
+  top: 460px;
+}
+
+.fa-facebook::before {
+  content: "";
+  padding-right: 20px;
+}
+
+.fa-facebook:hover {
+  width: 230px;
+}
+
+.fa-github {
+  background-color: #333;
+  top: 500px;
+}
+
+.fa-github::before {
+  content: "";
+  padding-right: 10px;
+}
+
+.fa-github:hover {
+  width: 230px;
+}/*# sourceMappingURL=styles.css.map */
