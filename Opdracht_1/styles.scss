@@ -1,9 +1,5 @@
-body {
-    background-color: #c3cfe2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    color: grey;
-}
+@import './variables';
+@import './body';
 
 .container {
     margin: 30px;
@@ -42,7 +38,7 @@ body {
         align-items: center;
 
         h1 {
-            color: #fff;
+            color: $textcolor;
             font-size: 20px;
             letter-spacing: 2px;
             &::after {
