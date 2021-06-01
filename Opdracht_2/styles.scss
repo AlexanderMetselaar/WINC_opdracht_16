@@ -1,10 +1,9 @@
+@import './variables';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
     width: 100%;
     background: #2f303a
   }
@@ -38,10 +37,10 @@
       width: 100%;
       border-radius: 20px;
       visibility: none;
-      background: #1762a7;
+      background: $primarybckgr;
       opacity: 0;
       transition-duration: 500ms;
-      background: #1762a7;
+      background: $primarybckgr;
     }
     }
   
